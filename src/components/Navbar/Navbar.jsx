@@ -4,7 +4,7 @@ import LogoImage from '../../assets/Logo.png'
 const Navbar = () => {
   return (
     <div className={styles.wrapper}>
-       <img src={LogoImage} alt="logo"/>
+       <img src={LogoImage} alt="logo" style={{height:"40px",cursor:"pointer"}}/>
        <div className={styles.navHead}>
         <p>Home</p>
         <p>Attorneys</p>
