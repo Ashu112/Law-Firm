@@ -1,13 +1,55 @@
-.wrapper{
-    display: flex;
-    justify-content: space-around;
-    gap:40px;
-    background-color: var(--color-primary);
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  background-color: var(--color-primary);
+  padding: 80px;
 }
 
-.heroText{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    color: var(--color-white);
+.heroText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--color-white);
+  gap: 40px;
+}
+
+.heading {
+  width: 571px;
+}
+
+.HeroPara {
+  width: 560px;
+  height: 99px;
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.3;
+}
+
+.heroBar {
+  display: flex;
+  align-items: stretch;
+}
+
+.search {
+  width: 438px;
+  height: 74px;
+  border-radius: 43px;
+  opacity: 0.1;
+  padding: 30px;
+}
+
+.button {
+  width: 137px;
+  height: 74px;
+  border-radius: 43px;
+  background: #e3b748;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: var(--color-black);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
 }
