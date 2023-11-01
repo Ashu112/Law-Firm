@@ -45,6 +45,9 @@
   border-radius: 43px;
   background: #e3b748;
   cursor: pointer;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
 }
 
 ::placeholder {

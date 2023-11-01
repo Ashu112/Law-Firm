@@ -1,0 +1,45 @@
+.wrapper {
+  background-color: var(--color-secondary);
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  color: var(--color-white);
+  padding: 100px;
+}
+
+.txtBold {
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  width: 387px;
+  height: 174px;
+}
+
+.seprator {
+  width: 1px;
+  height: 206px;
+  background: #6a6a6a;
+  margin-left: 40px;
+}
+
+.lawyer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.lawyerTxt {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.lawyerPara {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  opacity: 0.3;
+  width: 475px;
+}
