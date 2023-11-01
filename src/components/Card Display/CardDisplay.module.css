@@ -1,0 +1,20 @@
+.wrapper {
+  background-color: var(--color-secondary);
+  padding: 20px;
+}
+
+.mainTxt {
+  color: var(--color-white);
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  display:flex;
+  justify-content: center;
+}
+
+.cardLayout{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 70px 0px;
+}

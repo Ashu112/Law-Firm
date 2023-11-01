@@ -1,0 +1,58 @@
+.wrapper {
+  width: 359px;
+}
+
+.card {
+  position: relative;
+  width: 359px;
+  height: 377px;
+  border-radius: 14px;
+  border: 1.4px solid rgba(255, 255, 255, 0.1);
+  background: var(--color-primary);
+  overflow: hidden;
+  padding: 20px;
+}
+
+.wrapper :hover{
+    background:var(--color-secondary);
+}
+
+.cardLogo {
+  width: 101px;
+  height: 101px;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 240px;
+}
+
+.bannerTxt {
+  color: var(--color-white);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.bannerPara {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  opacity: 0.3;
+  color: var(--color-white);
+}
+
+.pill {
+  width: 121px;
+  height: 43px;
+  border-radius: 23.5px;
+  background: #e3b748;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 20px;
+  text-align: center;
+  margin: 4px 2px;
+  cursor: pointer;
+}
