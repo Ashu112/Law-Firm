@@ -1,0 +1,11 @@
+.wrapper{
+    background-color: var(--color-secondary);
+}
+
+.heading{
+    color: var(--color-white);
+    font-size: 54px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
